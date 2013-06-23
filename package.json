@@ -1,0 +1,38 @@
+{
+  "private": "true",
+  "name": "trendie",
+  "version": "1.0.0",
+  "description": "CLI tool that displays Internet Explorer usage and trends on your site via Google Analytics.",
+  "main": "./bin/trendie.js",
+  "bin": {
+    "trendie": "./bin/trendie.js"
+  },
+  "keywords": [
+    "ie",
+    "internet explorer",
+    "usage",
+    "trends"
+  ],
+  "dependencies": {
+    "lodash": "1.3.x"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/okize/trendie.git"
+  },
+  "bugs": "https://github.com/okize/trendie/issues",
+  "homepage": "https://github.com/okize/trendie/",
+  "author": {
+    "name": "Morgan Wigmanich",
+    "email": "okize123@gmail.com",
+    "url": "https://github.com/okize"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  }
+}
