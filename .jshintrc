@@ -36,5 +36,5 @@
   "strict": false,
   "white": true,
   "indent": 2,
-  "unused": true
+  "unused": false
 }
