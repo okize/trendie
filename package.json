@@ -16,15 +16,14 @@
   ],
   "dependencies": {
     "commander": "1.2.x",
+    "cli-table": "0.2.x",
+    "colors": "0.6.x",
+    "googleanalytics": "0.3.x",
     "level": "0.10.x",
     "lodash": "1.3.x",
-    "q": "0.9.x",
     "moment": "2.1.x",
-    "googleanalytics": "0.3.x",
-    "request": "2.22.x"
-  },
-  "scripts": {
-    "test": ""
+    "prompt": "0.2.x",
+    "q": "0.9.x"
   },
   "repository": {
     "type": "git",
