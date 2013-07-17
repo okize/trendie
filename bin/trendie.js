@@ -5,6 +5,7 @@ var
   path = require('path'),
   program = require('commander'),
   levelup = require('level'),
+  _ = require('lodash'),
   colors = require('colors'),
   prompt = require('prompt');
 
@@ -16,11 +17,11 @@ var
 
 // $ trendie get
 program
-  .command('get [profile]')
-  .description('get Internet Explorer trends for a Google Analytics profile')
-  .action(function (profile) {
+  .command('get [profileId]')
+  .description('get Internet Explorer trends for a Google Analytics profile ID')
+  .action(function (profileId) {
 
-    if (!profile) {
+    if (!profileId) {
       return console.error('please enter the Google Analytics profile ID you wish to view (ie. 187623632)');
     }
 
@@ -40,7 +41,7 @@ program
           return console.error('the password has not been set'.red);
         }
 
-        return trendie.getTrends(profile, username, password);
+        return trendie.getTrends(profileId, username, password);
 
       });
 
