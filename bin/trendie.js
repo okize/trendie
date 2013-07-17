@@ -18,7 +18,7 @@ var
 // $ trendie get
 program
   .command('get [profileId]')
-  .description('get Internet Explorer trends for a Google Analytics profile ID')
+  .description('get Internet Explorer trends for a Google Analytics profile')
   .action(function (profileId) {
 
     if (!profileId) {
