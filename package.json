@@ -23,6 +23,7 @@
     "lodash": "1.3.x",
     "moment": "2.1.x",
     "numeral": "1.4.x",
+    "progger": "0.1.x",
     "prompt": "0.2.x",
     "q": "0.9.x"
   },
@@ -40,6 +41,6 @@
   "license": "MIT",
   "engines": {
     "node": "0.10.x",
-    "npm": "1.2.x"
+    "npm": "1.3.x"
   }
 }

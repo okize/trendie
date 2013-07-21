@@ -1,19 +1,17 @@
 #!/usr/bin/env node
 
 // modules
-var
-  path = require('path'),
-  program = require('commander'),
-  levelup = require('level'),
-  _ = require('lodash'),
-  colors = require('colors'),
-  prompt = require('prompt');
+var path = require('path'),
+    program = require('commander'),
+    levelup = require('level'),
+    _ = require('lodash'),
+    colors = require('colors'),
+    prompt = require('prompt');
 
 // local vars
-var
-  db = levelup(path.resolve(__dirname, '..', 'config')),
-  trendie = require(path.resolve(__dirname, '..', 'lib', 'trendie')),
-  pkg = require(path.resolve(__dirname, '..', 'package.json'));
+var db = levelup(path.resolve(__dirname, '..', 'config')),
+    trendie = require(path.resolve(__dirname, '..', 'lib', 'trendie')),
+    pkg = require(path.resolve(__dirname, '..', 'package.json'));
 
 // $ trendie get
 program
