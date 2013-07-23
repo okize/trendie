@@ -1,10 +1,10 @@
-# trendie [![NPM version](https://badge.fury.io/js/trendie.png)](http://badge.fury.io/js/trendie)
+# trendie [![NPM version](https://badge.fury.io/js/trendie.png)](http://badge.fury.io/js/trendie) [![NPM version](https://david-dm.org/okize/trendie.png)](https://david-dm.org/okize/trendie)
 
 CLI tool that displays Internet Explorer usage and trends for your site via Google Analytics.
 
 Displays visits from the last month, 6 months ago and 1 year ago (1 month = 4 weeks = 28 days to avoid low-traffic weekend bias).
 
-# example
+## example
 
 ```
 $ trendie get 123456789
