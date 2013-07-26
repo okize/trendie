@@ -10,7 +10,7 @@
     "waits": false,
     "waitsFor": false,
     "runs": false
-    },
+  },
   "node" : true,
   "es5" : true,
   "browser" : true,

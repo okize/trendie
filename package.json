@@ -10,12 +10,15 @@
   "keywords": [
     "ie",
     "internet explorer",
+    "use",
     "usage",
     "trends",
-    "trending"
+    "trending",
+    "traffic",
+    "analytics"
   ],
   "dependencies": {
-    "commander": "1.2.x",
+    "commander": "2.0.x",
     "cli-table": "0.2.x",
     "colors": "0.6.x",
     "googleanalytics": "0.3.x",

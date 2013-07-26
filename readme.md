@@ -1,12 +1,10 @@
-[![NPM version](https://badge.fury.io/js/trendie.png)](http://badge.fury.io/js/trendie)
-
-# trendie
+# trendie [![NPM version](https://badge.fury.io/js/trendie.png)](http://badge.fury.io/js/trendie) [![NPM version](https://david-dm.org/okize/trendie.png)](https://david-dm.org/okize/trendie)
 
 CLI tool that displays Internet Explorer usage and trends for your site via Google Analytics.
 
 Displays visits from the last month, 6 months ago and 1 year ago (1 month = 4 weeks = 28 days to avoid low-traffic weekend bias).
 
-# example
+## example
 
 ```
 $ trendie get 123456789
@@ -44,12 +42,12 @@ You will then be prompted for a username & password. Rerunning this command will
 ```
   $ trendie get 123456789
 ```
-Where 123456789 is a GA profile ID that the supplied user  credentials has permissions for.
+Where 123456789 is a GA profile ID that the supplied user credentials has permissions for.
 
-[How do I find my profile ID?](https://developers.google.com/analytics/resources/concepts/gaConceptsAccounts#profiles)
+[How do I find my profile ID?](https://developers.google.com/analytics/resources/concepts/gaConceptsAccounts)
 
-# license
+## License
 
-MIT
+Released under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
 
 [![NPM](https://nodei.co/npm/trendie.png)](https://nodei.co/npm/trendie/)
