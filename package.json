@@ -23,7 +23,7 @@
     "colors": "0.6.x",
     "googleanalytics": "0.3.x",
     "lodash": "2.2.x",
-    "moment": "2.3.x",
+    "moment": "2.4.x",
     "nedb": "0.8.x",
     "numeral": "1.5.x",
     "path-extra": "0.1.x",
