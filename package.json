@@ -1,6 +1,6 @@
 {
   "name": "trendie",
-  "version": "0.2.6",
+  "version": "0.3.0",
   "description": "CLI tool that displays Internet Explorer usage and trends for your site via Google Analytics.",
   "preferGlobal": true,
   "main": "./bin/trendie.js",
