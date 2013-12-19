@@ -4,7 +4,7 @@ CLI tool that displays Internet Explorer usage and trends for your site via Goog
 
 Displays visits from the last month, 6 months ago and 1 year ago (1 month = 4 weeks = 28 days to avoid low-traffic weekend bias).
 
-## example
+## Example
 
 ```
 $ trendie get 123456789
