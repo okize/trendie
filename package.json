@@ -18,19 +18,19 @@
     "analytics"
   ],
   "dependencies": {
-    "commander": "2.1.x",
-    "cli-table": "0.2.x",
+    "cli-table": "0.3.x",
+    "commander": "2.2.x",
     "colors": "0.6.x",
     "googleanalytics": "0.3.x",
     "lodash": "2.4.x",
-    "moment": "2.4.x",
-    "nedb": "0.9.x",
+    "moment": "2.6.x",
+    "nedb": "0.10.x",
     "numeral": "1.5.x",
     "path-extra": "0.1.x",
-    "prettyjson": "0.10.x",
+    "prettyjson": "1.0.x",
     "progger": "0.1.x",
     "prompt": "0.2.x",
-    "q": "0.9.x"
+    "q": "1.0.x"
   },
   "repository": {
     "type": "git",
