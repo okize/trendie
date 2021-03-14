@@ -18,11 +18,11 @@
     "analytics"
   ],
   "dependencies": {
-    "cli-table": "^0.3.4",
+    "cli-table": "^0.3.5",
     "colors": "^1.4.0",
     "commander": "^6.2.1",
     "googleanalytics": "^0.3.7",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "moment": "^2.29.1",
     "nedb": "^1.8.0",
     "numeral": "^2.0.0",
