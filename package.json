@@ -18,7 +18,7 @@
     "analytics"
   ],
   "dependencies": {
-    "cli-table": "^0.3.5",
+    "cli-table": "^0.3.6",
     "colors": "^1.4.0",
     "commander": "^6.2.1",
     "googleanalytics": "^0.3.7",
@@ -34,7 +34,7 @@
     "q": "^1.4.0"
   },
   "devDependencies": {
-    "jshint": "^2.12.0"
+    "jshint": "^2.13.0"
   },
   "repository": {
     "type": "git",
